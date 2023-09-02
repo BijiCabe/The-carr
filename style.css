@@ -1,0 +1,452 @@
+* {
+  margin:0px;
+  padding:0px;
+}
+
+@font-face {
+  font-family: 'Minerfa';
+  src: url('Fonts/Minecraft Fonts Aseli/Minecrafter.Alt.ttf');
+}
+
+@font-face {
+  font-family:'Rustea';
+  src: url('Fonts/OpenType-TT/Rustea.ttf');
+}
+
+@font-face {
+  font-family:'Slabo';
+  src: url('Fonts/Slabo/Slabo27px-Regular.ttf');
+}
+
+@font-face {
+  font-family:'Moon';
+  src: url('Fonts/Moon/Moon Light.otf');
+}
+
+.container-fluid {
+  background-color:white;
+}
+
+.navbar-brand {
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-item, .form-control {
+  color:blue;
+  font-family:'slabo';
+}
+
+.title-content {
+  text-align:center;
+  font-family: 'Roboto Slab', serif;
+  font-size:18px;
+}
+ .main-content {
+   width:360px;
+   height:400px;
+   margin:auto;
+   padding:30px;
+   font-family: 'Open Sans', sans-serif;
+   font-size:15px;
+
+ }
+ 
+ .box-content {
+  width:auto;
+  height:170px;
+  padding-top:20px;
+  border-color:rgb(56,205,95);
+  border:solid;
+  border-left-style:none;
+  border-bottom-style;
+  border-top-style:none ;
+  border-right-style:none;
+}
+
+ .box-content-second {
+  width:auto;
+  height:auto;
+  padding-top:20px;
+ }
+ 
+ 
+  
+  .gambar1,
+  .gambar2,
+  .gambar3 {
+    height: 200px;
+    width:300px;
+    display:flex;
+    margin:auto;
+    margin-top:10px;
+    border-radius:2px;
+  }
+
+ul li {
+  list-style:none;
+}
+
+.excel-box-content-title {
+    font-family: 'Roboto Slab',serif;
+    font-size:18px;
+    text-align:center;
+}
+  /*  .box-main-article {*/
+  /* background-color:blue;*/
+  /* width:350px;*/
+  /* height: 200px;*/
+   
+  /*}*/
+  /*  .box-main-article {*/
+  /* background-color:blue;*/
+  /* width:350px;*/
+  /* height: 200px;*/
+   
+  /*}*/
+  
+  .excel-box {
+    width:360px;
+    height:700px;
+    backgound-color:red;
+}
+  
+  .box-content-1, 
+  .box-content-2, 
+  .box-content-3 {
+    border:solid black 1px;
+    height:200px;
+    width: 265px;
+    margin:auto;
+    margin-top:20px;
+    padding:20px;
+    box-shadow: 5px 5px 5px black;
+  }
+  
+  .fa-truck-fast, .fa-clock, .fa-shield{
+    font-size:50px;
+  }
+  
+  .box-title1, 
+  .box-title2,
+  .box-title3 {
+    font-family:'Roboto Slab', serif;
+  }
+  
+  .box-content-title1,
+  .box-content-title2,
+  .box-content-title3 {
+    font-family:'Slabo';
+    
+  }
+  
+   .title-box-why-us {
+    width:auto;
+    height:auto;
+    font-family:'Roboto Slab', serif ;
+    font-size:18px;
+    text-align:center;
+  }
+  
+  .main-box-why-us {
+    height
+  }
+  
+  .box-why-us-content {
+    width:250px;
+    height: 150px;
+    border: black solid 1px ;
+    margin:auto;
+    text-align:center;
+    margin-top:10px;
+  }
+  
+  
+  .how-many {
+    font-size:40px;
+    font-family: 'Oswald', sans-serif;
+    text-decoration:underline;
+    line-height:80px;
+  }
+  
+  .how-many-lorem {
+    font-size:22px;
+    font-family: 'Poppins', serif;
+  }
+  
+  
+  /*kotakmobil*/
+  
+  .box-cars-title {
+    text-align:center;
+    font-family: 'Roboto Slab',serif;
+    font-size:18px;
+    text-decoration:underline;
+  }
+  
+    .main-cars-gallery {
+    width:360px;
+    height:auto;
+    box-sizing:border-box;
+    border:black solid;
+    border-bottom-style:none;
+    border-top-style:none;
+    border-right-style:none;
+    border-left-style:none;
+    padding:20px;
+    margin:auto;
+  }
+  
+  .cars-gallery {
+    margin:auto;
+    width:auto;
+    height:auto;
+    text-align:center;
+    font-family:'Slabo';
+    font-size:18px;
+    line-height:32px;
+  }
+
+  .cars-img {
+    width:250px;
+    height: 150px;
+    margin:auto;
+    transition:.75s;
+  }
+  
+  .cars-img:hover {
+    box-shadow: 6px 6px 5px black;
+  }
+  
+  .footer {
+    margin-top:10px;
+    height:180px;
+    width:auto;
+    background-color:rgba(200,191,191,0.289);
+  }
+  
+  .main-footer {
+    width:auto;
+    height:auto;
+  }
+    
+   .footer-title1 {
+     font-family: 'Roboto Slab',serif;
+     font-size:18px;
+     text-align:center;
+   }
+   .footer-title1-desk {
+     text-align:center;
+     font-family: 'Slabo';
+     font-size:15px;
+   }
+   
+   .footer-full {
+     text-align:center;
+     font-family: 'Slabo';
+     font-size:15px;
+     display:flex;
+     justify-content:space-around;
+   }
+   
+  .footer-link {
+     text-decoration-line:none;
+     
+   }
+   
+   .sosmed-box {
+     height:30px;
+     width: 100px;
+     margin:auto;
+     font-size:20px;
+   }
+   
+
+@media only screen and (min-width:500px) and (max-width:7680px) {
+  
+    
+ .navbar {
+  height:80px;
+  font-size:100px;
+  width:1050px;
+ }
+ 
+ #carouselExampleAutoplaying {
+   margin:auto;
+ }
+ 
+ .carousel {
+ width:1050px;
+ }
+ 
+ .title-content {
+  margin:auto;
+  text-align:center;
+  font-family: 'Roboto Slab', serif;
+  font-size:28px;
+  height:auto;
+  width:auto;
+}
+
+.second-content {
+  display:flex;
+}
+ 
+ .main-content {
+   width:1050px;
+   height:320px;
+   padding-top:;
+   font-family: 'Open Sans', sans-serif;
+   font-size:20px;
+ }
+ 
+.box-content {
+  width:500px;
+  height:200px;
+  padding-right:10px;
+  margin-top:30px;
+  border-color:rgb(56,205,95);
+  border:solid;
+  border-left-style:none;
+  border-bottom-style:none;
+  border-top-style:none ;
+  border-right-style:;
+}
+
+.box-content-second {
+  width:500px;
+  height:200px;
+  margin-top:30px;
+  margin-left:10px;
+  border-color:rgb(56,205,95);
+  border:solid;
+  border-left-style:none;
+  border-bottom-style:none;
+  border-top-style:none ;
+  border-right-style:none ;
+}
+
+.box-content, .box-content-second {
+  font-size:20px;
+}
+
+.container-cars-gallery {
+  background-color:blue;
+  margin:none;
+}
+
+.box-cars-title {
+  margin:;
+  width:1025px;
+}
+
+ .main-cars-gallery {
+   width:1050px;
+   height:auto;
+ }
+ 
+ .box-cars-title {
+   font-size:25px;
+   text-decoration:none;
+ }
+ 
+ .cars-box {
+   display:flex;
+   flex-wrap:wrap;
+ }
+ 
+ .cars-gallery {
+   width:250px;
+ }
+ 
+.box-car2 {
+  margin:auto;
+  display:flex;
+  justify-content:space-around;
+  width:505px;
+}
+.container-fluid {
+  font-size:20px;
+}
+ .navbar-brand {
+   
+ }
+ 
+   .box-main-article {
+   width:1050px;
+   height: 250px;
+   display:flex;
+   justify-content:space-around;
+  }
+  
+
+  .gambar1,
+  .gambar2,
+  .gambar3 {
+    height: 200px;
+    width:300px;
+    display:block;
+    margin:auto;
+    margin-top:10px;
+  }
+  
+ .main-article-title {
+   text-align:center;
+   font-family:'Roboto Slab', serif;
+   font-size:25px;
+   width:1050px;
+   height:auto;
+ }
+ 
+ .excel-box {
+  
+   width:1050px;
+   height: 300px;
+ }
+ 
+ .excel-box-content-title {
+   font-size:25px;
+   height:50px;
+   width:auto;
+   text-align:center;
+ }
+   
+  .excel-box-content {
+    width:1050px;
+    height:300px;
+    display:flex;
+  }
+  
+  .title-box-why-us {
+    width:1050px;
+    height:auto;
+    font-family:'Roboto Slab', serif ;
+    font-size:25px;
+  }
+  
+  .container-box-why-us {
+    width:1050px;
+    height:250px;
+  }
+ 
+  .main-box-why-us {
+    display:flex;
+  }
+  
+  .footer {
+    background-color: ;
+    width:1050px;
+    
+  }
+  
+  .main-footer2 {
+    width:400px;
+    margin:auto;
+  }
+  
+  .div::after {
+    
+  }
+}
+  
+    
+/*}*/
