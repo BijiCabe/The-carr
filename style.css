@@ -102,10 +102,15 @@ ul li {
   /*}*/
   
   .excel-box {
-    width:360px;
+    width:auto;
     height:700px;
-    backgound-color:red;
 }
+
+  .excel-box-content {
+    margin:auto;
+    width:auto;
+    height:300px;
+  }
   
   .box-content-1, 
   .box-content-2, 
@@ -258,7 +263,7 @@ ul li {
    }
    
 
-@media only screen and (min-width:500px) and (max-width:7680px) {
+@media only screen and (min-width:500px) and (max-width:1200px) {
  #carouselExampleAutoplaying {
    margin:auto;
  }
@@ -266,7 +271,6 @@ ul li {
  .carousel {
  width:1050px;
  margin:auto;
- background-color:red;
  }
  
  .title-content {
@@ -288,7 +292,6 @@ ul li {
    padding-top:;
    font-family: 'Open Sans', sans-serif;
    font-size:20px;
-   background-color:yellow;
  }
  
 .box-content {
@@ -302,7 +305,7 @@ ul li {
   border-bottom-style:none;
   border-top-style:none ;
   border-right-style:;
-  background-color:green;
+
 }
 
 .box-content-second {
@@ -316,7 +319,6 @@ ul li {
   border-bottom-style:none;
   border-top-style:none ;
   border-right-style:none ;
-  background-color:red;
 }
 
 .box-content, .box-content-second {
@@ -324,7 +326,6 @@ ul li {
 }
 
 .container-cars-gallery {
-  background-color:blue;
   margin:none;
 }
 
@@ -336,7 +337,6 @@ ul li {
  .main-cars-gallery {
    width:1050px;
    height:auto;
-   background-color:red;
  }
  
  .box-cars-title {
@@ -351,7 +351,6 @@ ul li {
  
  .cars-gallery {
    width:250px;
-   background-color:yellow;
  }
  
 .box-car2 {
@@ -394,7 +393,6 @@ ul li {
  }
  
  .excel-box {
-  background-color:red;
    width:auto;
    height: auto;
    margin:auto;
