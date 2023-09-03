@@ -1,4 +1,3 @@
-
 * {
   margin:0px;
   padding:0px;
@@ -262,21 +261,15 @@ ul li {
    }
    
 
-@media only screen and (min-width:500px) and (max-width:1200px) {
-  
-    
- .navbar {
-  height:80px;
-  font-size:100px;
-  width:1050px;
- }
- 
+@media only screen and (min-width:500px) and (max-width:7680px) {
  #carouselExampleAutoplaying {
    margin:auto;
  }
  
  .carousel {
  width:1050px;
+ margin:auto;
+ background-color:red;
  }
  
  .title-content {
@@ -298,6 +291,7 @@ ul li {
    padding-top:;
    font-family: 'Open Sans', sans-serif;
    font-size:20px;
+   background-color:yellow;
  }
  
 .box-content {
@@ -311,6 +305,7 @@ ul li {
   border-bottom-style:none;
   border-top-style:none ;
   border-right-style:;
+  background-color:green;
 }
 
 .box-content-second {
@@ -324,6 +319,7 @@ ul li {
   border-bottom-style:none;
   border-top-style:none ;
   border-right-style:none ;
+  background-color:red;
 }
 
 .box-content, .box-content-second {
@@ -343,6 +339,7 @@ ul li {
  .main-cars-gallery {
    width:1050px;
    height:auto;
+   background-color:red;
  }
  
  .box-cars-title {
@@ -357,10 +354,103 @@ ul li {
  
  .cars-gallery {
    width:250px;
+   background-color:yellow;
  }
  
 .box-car2 {
   margin:auto;
+  display:flex;
+  justify-content:space-around;
+  width:auto;
+}
+.container-fluid {
+  font-size:20px;
+}
+ .navbar-brand {
+   
+ }
+ 
+   .box-main-article {
+   width:1050px;
+   height: 250px;
+   display:flex;
+   justify-content:space-around;
+  }
+  
+
+  .gambar1,
+  .gambar2,
+  .gambar3 {
+    height: 200px;
+    width:300px;
+    display:block;
+    margin:auto;
+    margin-top:10px;
+  }
+  
+ .main-article-title {
+   text-align:center;
+   font-family:'Roboto Slab', serif;
+   font-size:25px;
+   width:1050px;
+   height:auto;
+ }
+ 
+ .excel-box {
+  background-color:red;
+   width:auto;
+   height: auto;
+   margin:auto;
+ }
+ 
+ .excel-box-content-title {
+   font-size:25px;
+   height:50px;
+   width:auto;
+   text-align:center;
+   margin:auto;
+ }
+   
+  .excel-box-content {
+    width:1050px;
+    height:300px;
+    display:flex;
+  }
+  
+  .title-box-why-us {
+    width:1050px;
+    height:auto;
+    font-family:'Roboto Slab', serif ;
+    font-size:25px;
+  }
+  
+  .container-box-why-us {
+    width:1050px;
+    height:250px;
+  }
+ 
+  .main-box-why-us {
+    display:flex;
+  }
+  
+  .footer {
+    background-color: ;
+    width:1050px;
+    
+  }
+  
+  .main-footer2 {
+    width:400px;
+    margin:auto;
+  }
+  
+  .div::after {
+    
+  }
+}
+  
+    
+/*}*/
   display:flex;
   justify-content:space-around;
   width:505px;
