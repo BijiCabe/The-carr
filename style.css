@@ -409,6 +409,7 @@ ul li {
  }
    
   .excel-box-content {
+   justify-content:center;
     width:1050px;
     height:300px;
     display:flex;
